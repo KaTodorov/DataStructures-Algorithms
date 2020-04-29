@@ -1,12 +1,4 @@
-function linearSearch(arr, val) {
-  for (var i = 0; i < arr.length; i++) {
-    if (arr[i] === val) return i;
-  }
-  return -1;
-}
-arr = [23, 12, 1, 231, 2];
-val = 3;
-console.log(linearSearch(arr, val));
+
 arr = [1, 2, 3, 4, 5, 7, 11, 13];
 console.log(binarySearch(arr, 6));
 
